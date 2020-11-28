@@ -3,7 +3,7 @@ lazy val core = project
   .enablePlugins(ScalaNativePlugin)
   .settings(
     scalaVersion := "2.11.12",
-    // mainClass in (Compile, run) := Some("m.Main")
+//    mainClass in (Compile, run) := Some("m.Main")
   )
 
 lazy val app = project
